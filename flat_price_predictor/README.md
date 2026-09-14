@@ -232,7 +232,7 @@ Through this project, you can learn how to:
 
 ## 👨‍💻 Author
 
-**Santanu and Team**
+**Sudipta Roy and Team**
 
 B.Tech — Artificial Intelligence & Machine Learning
 
