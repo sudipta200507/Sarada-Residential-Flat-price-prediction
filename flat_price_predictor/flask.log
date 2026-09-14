@@ -1,0 +1,118 @@
+D:\A Projects Folders\new 2\flat_price_predictor\.venv\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator LinearRegression from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+INFO:root:Model loaded successfully.
+ * Serving Flask app 'app'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+D:\A Projects Folders\new 2\flat_price_predictor\.venv\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator LinearRegression from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-462-311
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:24:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:24:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:24:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:24:34] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:26:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:26:20] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:28:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:28:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:root:Input: [[850.   3. 250.   2.   2.]]
+D:\A Projects Folders\new 2\flat_price_predictor\.venv\Lib\site-packages\sklearn\utils\validation.py:2827: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+INFO:root:Prediction: 49.279871868888975
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:28:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Input: [[850.   3. 250.   2.   2.]]
+D:\A Projects Folders\new 2\flat_price_predictor\.venv\Lib\site-packages\sklearn\utils\validation.py:2827: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+INFO:root:Prediction: 49.279871868888975
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:28:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Input: [[850.   3. 250.   2.   2.]]
+D:\A Projects Folders\new 2\flat_price_predictor\.venv\Lib\site-packages\sklearn\utils\validation.py:2827: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+INFO:root:Prediction: 49.279871868888975
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:28:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Input: [[850.   3. 250.   2.   2.]]
+D:\A Projects Folders\new 2\flat_price_predictor\.venv\Lib\site-packages\sklearn\utils\validation.py:2827: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+INFO:root:Prediction: 49.279871868888975
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:28:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Input: [[850.   3. 250.   3.   2.]]
+D:\A Projects Folders\new 2\flat_price_predictor\.venv\Lib\site-packages\sklearn\utils\validation.py:2827: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+INFO:root:Prediction: 50.421465218839
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:29:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:Input: [[850.   3. 250.   9.   2.]]
+D:\A Projects Folders\new 2\flat_price_predictor\.venv\Lib\site-packages\sklearn\utils\validation.py:2827: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+INFO:root:Prediction: 57.27102531853923
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:29:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Input: [[850.   3. 250.   3.   3.]]
+D:\A Projects Folders\new 2\flat_price_predictor\.venv\Lib\site-packages\sklearn\utils\validation.py:2827: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+INFO:root:Prediction: 50.70331537833559
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:29:17] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:31:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\A Projects Folders\\new 2\\flat_price_predictor\\.venv\\Lib\\site-packages\\sklearn\\_loss\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-462-311
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:41:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:41:51] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:41:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:41:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:41:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:41:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:41:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:41:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:41:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:41:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:41:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:41:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:42:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:43:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:43:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:43:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:43:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:43:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:43:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Sep/2026 23:43:08] "GET / HTTP/1.1" 200 -
